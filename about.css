@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Harland Roselyn;
+    src: url(Harland\ Roselyn.ttf);
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images4.jpg);
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+}
+
+    h1{
+        color:rgb(110, 79, 38);
+        text-shadow: 5px 5px rgba(201, 76, 97, 0.918);
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 75px;
+        font-family: Harland Roselyn;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 4cm;
+        left: 2cm;
+        
+       }
+
+    .images{
+    
+    width: 300px;
+    justify-content: left;
+    position: absolute;
+    right: 12cm;
+    top: 1.5cm;
+    opacity: 0.3;
+    }
+
+    .image{
+    width: 300px;
+    clip-path: circle();
+    justify-content: right;
+    position: absolute;
+    right: 1cm;
+    left: 3cm;
+    top: cm;
+    bottom: 3.5cm;
+    }
+
+    h2{
+        color:rgb(253, 251, 249);
+        text-shadow: 3px 3px rgba(240, 4, 44, 0.918);
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 11cm;
+        left: 1cm;
+    }
+    p{
+        color:white;
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 10cm;
+        left: 2cm;
+    }
+    h3{
+        color:rgb(253, 251, 249);
+        text-shadow: 3px 3px rgba(240, 4, 44, 0.918);
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 9cm;
+        left: 1cm;   
+    }
+    p1{
+        color:white;
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 8cm;
+        left: 2cm;
+        
+    }
+    h4{
+    color:rgb(253, 251, 249);
+    text-shadow: 3px 3px rgba(240, 4, 44, 0.918);
+    margin: 20px 0px 20px;
+    color-interpolation-filters: linearRGB;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: inherit;
+    position: absolute;
+    bottom: 7cm;
+    left: 1cm; 
+    }
+    p2{
+        color:white;
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 6cm;
+        left: 2cm;
+        
+    }
+    h5{
+        color:rgb(253, 251, 249);
+        text-shadow: 3px 3px rgba(240, 4, 44, 0.918);
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 5cm;
+        left: 1cm; 
+        }
+        p3{
+            color:white;
+            margin: 20px 0px 20px;
+            color-interpolation-filters: linearRGB;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-variant: inherit;
+            position: absolute;
+            bottom: 4cm;
+            left: 2cm;
+            
+        }
+        h6{
+            color:rgb(253, 251, 249);
+            text-shadow: 3px 3px rgba(240, 4, 44, 0.918);
+            margin: 20px 0px 20px;
+            color-interpolation-filters: linearRGB;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-variant: inherit;
+            position: absolute;
+            bottom: 3cm;
+            left: 1cm; 
+            }
+         p4{
+                color:white;
+                margin: 20px 0px 20px;
+                color-interpolation-filters: linearRGB;
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+                font-variant: inherit;
+                position: absolute;
+                bottom: 1cm;
+                left: 2cm;
+         }
+
+         p5{
+            color:white;
+            text-shadow: 3px 3px rgba(187, 56, 78, 0.918);
+            margin: 20px 0px 20px;
+            color-interpolation-filters: linearRGB;
+            font-size: 75px;
+            font-family: Harland Roselyn;
+            font-variant: inherit;
+            position: absolute;
+            top: 11.5cm;
+            left: 12cm;
+            
+           }

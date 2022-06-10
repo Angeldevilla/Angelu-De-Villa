@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: lulu;
+    src: url(Lulu.otf);
+}
+@font-face {
+    font-family: Harland Roselyn;
+    src: url(Harland\ Roselyn.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Harland Roselyn;
+    box-sizing: border-box;
+    color: rgb(248, 4, 106);
+}
+
+.Angelu{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    background-position: center; 
+    animation: change 10s ease-in-out ;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:  rgb(252, 5, 140);
+    border-color: burlywood;
+    font-family: Harland Roselyn;
+    font-style: bold;
+    font-size: 60px;
+    letter-spacing: 1px;
+    columns: pointer;
+}
+span{
+    color: rgb(177, 107, 16);
+}
+span1{
+    color: rgb(252, 5, 140);
+}
+nav ul li{
+    list-style-type: none;
+    
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: brown;
+    text-decoration: wavy;
+    font-weight: bold;
+    font-family: Harland Roselyn;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transform: transform .4s;
+}
+nav ul li a:hover{
+    color: rgb(182, 19, 46);
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+ color: rgb(114, 79, 33);
+ text-shadow: 5px 2px rgb(233, 131, 148);
+ margin: 20px 0px 20px;
+ color-interpolation-filters: linearRGB;
+ font-size: 100px;
+ font-family: Harland Roselyn;
+ font-variant: inherit;
+}
+h4{
+    color:rgb(238, 9, 150);
+    margin: 20px 0px 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-variant: inherit;
+   }
+
+.front{
+    color:violet;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing: 1px;
+    columns: pointer;
+   }
+ @keyframes change{
+       0%
+       {
+           background-image: url(image1.jpg);
+       }
+       20%
+       {
+           background-image: url(image9.jpg);
+       }
+       40%
+       {
+           background-image: url(images12.jpg);
+       }
+       60%
+       {
+           background-image: url(image21.jpg);
+       }   
+   }
+
+.images1{
+    width: 300px;
+    clip-path: circle();
+    justify-content: right;
+    position: absolute;
+    right: 5cm;
+    animation: change 10s ease-in-out
+
+}
+
+

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Harland Roselyn;
+    src: url(Harland\ Roselyn.ttf);
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images4.jpg);
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+}
+
+    h1{
+        color:rgb(110, 79, 38);
+        text-shadow: 5px 5px rgba(201, 76, 97, 0.918);
+        margin: 20px 0px 20px;
+        color-interpolation-filters: linearRGB;
+        font-size: 75px;
+        font-family: Harland Roselyn;
+        font-variant: inherit;
+        position: absolute;
+        bottom: 12.5cm;
+        left: 2cm;
+        
+       }
+
+    .images{
+    
+    width: 300px;
+    justify-content: left;
+    position: absolute;
+    right: 12cm;
+    top: 1.5cm;
+    opacity: 0.3;
+    }
+
+    .image{
+    width: 200px;
+    justify-content: right;
+    position: absolute;
+    right: 1cm;
+    left: 1cm;
+    top: 6cm;
+    bottom: 6cm;
+    }
+   
+    .image1{
+        width: 300px;
+        justify-content: right;
+        position: absolute;
+        right: 1cm;
+        left: 9cm;
+        top: 4cm;
+        bottom: 6cm;
+    }
+
+    .image2{
+        width: 300px;
+        justify-content: right;
+        position: absolute;
+        right: 1cm;
+        left: 17cm;
+        top: 6cm;
+        bottom: 6cm;
+    }
+    .image3{
+        width: 300px;
+        justify-content: right;
+        position: absolute;
+        right: 1cm;
+        left: 25cm;
+        top: 4cm;
+        bottom: 6   cm;
+    }
+
+    
